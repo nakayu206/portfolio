@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background: #e8f3be;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    border: solid 1px rgb(0, 0, 0);
+    margin-top: 20%;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.MarginBetweenSection_root__VerKL {
+    height: 100vh;
+}
+
+.portfolio_contents {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding-top: 400px;
+    z-index: 2;
+    font-size: 3vw;
+    color: rgb(19, 19, 19);
+    text-shadow: 1px 1px 0 #ffffff,
+        -1px -1px 0 #ffffff,
+        -1px 1px 0 #ffffff,
+        1px -1px 0 #ffffff,
+        0px 1px 0 #ffffff,
+        0 -1px 0 #ffffff,
+        -1px 0 0 #ffffff,
+        1px 0 0 #ffffff;
+}
+
+.profile_contents,
+.projects_contents,
+.contact_contents {
+    align-items: center;
+    height: 100vw;
+    position: relative;
+    color: #333;
+    font-size: 3vw;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #bef3c2;
+}
+
+.profile_contents {
+    margin-top: 203%;
+    margin-right: 50%;
+    padding-bottom: 40%;
+}
+
+.profile_contents h1 {
+    margin: 10%;
+    padding-top: 100%;
+    text-align: center;
+    text-shadow:
+        0 1px #bbb,
+        0 2px #aaa,
+        0 3px #999,
+        0 4px #888,
+        0 5px #777,
+        0 6px #666,
+        0 7px #555,
+        0 8px #444,
+        0 9px #333,
+        0 32px 24px rgba(0, 0, 0, 0.7);
+}
+
+.profile_contents h2 {
+    font-size: 1.17vw;
+    margin-top: 10%;
+}
+.profile_contents p {
+    font-size: 1vw;
+    margin-top: 3%;
+}
+.profile_contents img {
+    width: 80%;
+    height: auto;
+    padding-top: 20%;
+    margin-left: 10%;
+}
+
+
+.projects_contents h1 {
+    margin: 10%;
+    padding-top: 100%;
+    text-align: center;
+    text-shadow:
+        0 1px #bbb,
+        0 2px #aaa,
+        0 3px #999,
+        0 4px #888,
+        0 5px #777,
+        0 6px #666,
+        0 7px #555,
+        0 8px #444,
+        0 9px #333,
+        0 32px 24px rgba(0, 0, 0, 0.7);
+}
+.projects_contents {
+    margin-left: 50%;
+    margin-top: 75%;
+    padding-bottom: 200%;
+}
+
+.projects_contents h2 {
+    font-size: 1.3vw;
+    padding-top: 5%;
+}
+.projects_contents h3{
+    font-size: 1.1vw;
+    margin-top: 5%;
+}
+.projects_contents p {
+    font-size: 1vw;
+    padding-top: 5%;
+}
+
+.projects_contents img {
+    width: 100%;
+    padding-top: 20%;
+}
+
+.contact_contents {
+    margin-right: 50%;
+    margin-top: 75%;
+}
+
+.contact_contents h1 {
+    padding-top: 100%;
+    text-align: center;
+    text-shadow:
+        0 1px #bbb,
+        0 2px #aaa,
+        0 3px #999,
+        0 4px #888,
+        0 5px #777,
+        0 6px #666,
+        0 7px #555,
+        0 8px #444,
+        0 9px #333,
+        0 32px 24px rgba(0, 0, 0, 0.7);
+}
+
+.contact_contents p {
+    font-size: 1.2vw;
+    margin: 20% 0 5% 5%;
+}
+
+.button_solid017 {
+    padding-left: 70%;
+}
+
+.button_solid017 a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 10px 25px;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    background: #eeee;
+    border-radius: 50px;
+    border: 0.2rem solid #000000;
+    box-shadow: 0.2rem 0.2rem 0px 0.1rem #cccccc;
+    margin-top: 20%;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+.button_solid017 a:hover {
+    transform: translate3d(0.2rem, 0.2rem, 0);
+    box-shadow: none;
+    opacity: 1;
+    transition: all 0.2s;
+}
+
+.button_solid017 a:after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #543618;
+    border-right: 3px solid #543618;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+
+.finally_text {
+    margin-top: 60%;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script type="importmap">
+        {
+          "imports": {
+            "three": "https://unpkg.com/three@v0.151.3/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@v0.151.3/examples/jsm/"
+          }
+        }
+      </script>
+</head>
+
+<body>
+
+    <div class="portfolio_contents">
+        <h1>My Portfolio</h1>
+        <p>Nakagawa yuuki</p>
+    </div>
+    <canvas class="webgl"></canvas>
+    <section class="profile_contents">
+        <h1>About Me</h1>
+        <img src="images/jigazou.jpg" alt="">
+        <div class="about_text">
+            <h2>経歴:帝京科学大学、日本郵便株式会社、HAL東京</h2>
+            <h2>趣味：キャンプ、ゴルフ</h2>
+            <h2>新しいことがしたい!と思い立ちHAL東京に入学しました</h2>
+            <h2>何事もチャレンジ</h2>
+            <p>学校で学んだこと以外にもやりたいと思った動きやデザインを勉強し、日々学力に専念しています。</p>
+            <h2>動きのあるサイトを作るのが好きです！</h2>
+            <p>ユーザーが目で楽しめる動きやデザインを作ることでユーザーの目に止まるサイトを作っていきたいと考えています。</p>
+        </div>
+    </section>
+    <div class="MarginBetweenSection_root__VerKL"></div>
+    <section class="projects_contents">
+        <h1>My Work</h1>
+        <div class="work_contents">
+            <img src="images/portfolio.jpg">
+            <h2>ポートフォリオサイト</h2>
+            <h3>html/css/javascript/threejs/blender</h3>
+            <p>blenderもthreejsも初めての挑戦だったので最初は中々うまくいかず苦労しました、
+                何とか1つずつ解決していき1つの作品にできました!<br>
+                もっとthree.jsを知りたいと思いました！
+            </p>
+            <div class="button_solid017">
+                <a href="https://forms.gle/qKbgVXZZrcDEJs718">read more</a>
+            </div>
+            <img src="images/artist.jpg">
+            <h2>アーティストサイト</h2>
+            <h3>html/css/jquery/javascript</h3>
+            <p>課題で作った作品です。初めてjavascriptを使いました<br>
+                動きの部分やグッズからカートに移動までを作ってみてjavascriptの楽しさや奥の深さを感じれました
+            </p>
+            <div class="button_solid017">
+                <a href="https://forms.gle/qKbgVXZZrcDEJs718">read more</a>
+            </div>
+            <img src="images/quiz.jpg">
+            <h2>目覚ましクイズサイト</h2>
+            <h3>html/css/jquery/javascript</h3>
+            <p>グループ作業
+            </p>
+            <div class="button_solid017">
+                <a href="https://forms.gle/qKbgVXZZrcDEJs718">read more</a>
+            </div>
+            <img src="images/boulangerie.jpg">
+            <h2>ブーランジェリー</h2>
+            <h3>html/css/javascript</h3>
+            <p>blenderもthreejsも初めての挑戦だったので最初は中々うまくいかず苦労しました<br>
+                何とか1つずつ解決していき1つの作品にできました!
+            </p>
+            <div class="button_solid017">
+                <a href="https://forms.gle/qKbgVXZZrcDEJs718">read more</a>
+            </div>
+            <img src="images/2024-01-05 (1).png">
+            <h2>山梨の水サイト</h2>
+            <p>blender&threejsを使った作品</p>
+            <p>blenderもthreejsも初めての挑戦だったので最初は中々うまくいかず苦労しました<br>
+                何とか1つずつ解決していき1つの作品にできました!
+            </p>
+            <div class="button_solid017">
+                <a href="https://forms.gle/qKbgVXZZrcDEJs718">read more</a>
+            </div>
+        </div>
+    </section>
+    <div class="MarginBetweenSection_root__VerKL"></div>
+    <section class="contact_contents">
+        <h1>Contact me</h1>
+        <p>気になった事聞きたいことなんでも構いません<br>
+            ぜひお気軽に連絡ください</p>
+        <div class="button_solid017">
+            <a href="https://forms.gle/qKbgVXZZrcDEJs718">contact</a>
+        </div>
+        <hr>
+        <div class="finally_text">
+            <p>最後まで見ていただきありがとうございます
+                少しでも印象に残れば嬉しいです</p>
+        </div>
+    </section>
+    <script type="module" src="js/script.js"></script>
+
+    <script>
+        // ページが読み込まれた時にトップにスクロール
+        window.addEventListener('load', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // ページがリロードされた時にもトップにスクロール
+        window.addEventListener('beforeunload', () => {
+            window.scrollTo({ top: 0, behavior: 'auto' });
+        });
+    </script>
+
+</body>
+
+</html>
